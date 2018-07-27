@@ -79,7 +79,5 @@ for(let key in coffeeCompany){
 let meg = {
     lastname: "ducharme"
 }
-
-
-//when using bracket notation without a variable we need quotes. If we did meg[lastname] it would look for a last name variable. In the for in loop 'key' is a variable that holds the name of each of the keys in the object, that's why we do not need quotes there. 
 console.log(meg["lastname"]);
+//when using bracket notation without a variable we need quotes. If we did meg[lastname] it would look for a last name variable. In the for in loop 'key' is a variable that holds the name of each of the keys in the object, that's why we do not need quotes there. 
